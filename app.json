@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "hotel1",
+    "slug": "hotel1",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/app_icon/applogo.png",
+    "splash": {
+      "image": "./src/assets/images/app_icon/applogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.initstate.hotel1"
+    },
+    "android": {  
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/images/app_icon/applogo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.initstate.hotel1"
+    },
+    "web": {
+      "favicon": "./src/assets/images/app_icon/applogo.png"
+    }
+  }
+}
